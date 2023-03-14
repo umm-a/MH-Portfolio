@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Golos+Text&family=Poppins&display=swap');
 
   @media only screen and (max-width: 599px) {
+    .scale-video {
+        width: 25%;
+        height: auto;
+    }
     a {
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
@@ -56,6 +60,10 @@
 
   @media only screen and (min-width: 600px) {
     /* For tablets: */
+    .scale-video {
+        width: 30%;
+        height: auto;
+    }
     a {
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
@@ -177,6 +185,10 @@
   }
   @media only screen and (min-width: 1200px) {
     /* For desktop: */
+    .scale-video {
+        width: 80%;
+        height: auto;
+    }
     a {
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
